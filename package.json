@@ -27,6 +27,7 @@
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tanstack/table-core": "^8.21.3",
+		"@types/pg": "^8.15.5",
 		"@typeschema/class-validator": "^0.2.0",
 		"@vinejs/vine": "^1.8.0",
 		"arktype": "^2.1.20",
@@ -63,5 +64,9 @@
 		"vitest": "^3.0.0",
 		"yup": "^1.7.0",
 		"zod": "^3.25.76"
+	},
+	"dependencies": {
+		"dotenv": "^17.2.1",
+		"pg": "^8.16.3"
 	}
 }
